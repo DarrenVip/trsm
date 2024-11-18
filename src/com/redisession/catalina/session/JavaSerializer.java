@@ -2,8 +2,8 @@ package com.redisession.catalina.session;
 
 import org.apache.catalina.util.CustomObjectInputStream;
 
-import com.radiadesign.catalina.session.RedisSession;
-import com.radiadesign.catalina.session.Serializer;
+import com.redisession.catalina.session.RedisSession;
+import com.redisession.catalina.session.Serializer;
 
 import javax.servlet.http.HttpSession;
 import java.io.*;

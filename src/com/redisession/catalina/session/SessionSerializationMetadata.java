@@ -2,7 +2,7 @@ package com.redisession.catalina.session;
 
 import java.io.*;
 
-import com.radiadesign.catalina.session.SessionSerializationMetadata;
+import com.redisession.catalina.session.SessionSerializationMetadata;
 
 
 public class SessionSerializationMetadata implements Serializable {

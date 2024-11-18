@@ -17,10 +17,10 @@ import org.apache.catalina.util.LifecycleSupport;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.radiadesign.catalina.session.RedisSession;
-import com.radiadesign.catalina.session.RedisSessionHandlerValve;
-import com.radiadesign.catalina.session.RedisSessionManager;
-import com.radiadesign.catalina.session.Serializer;
+import com.redisession.catalina.session.RedisSession;
+import com.redisession.catalina.session.RedisSessionHandlerValve;
+import com.redisession.catalina.session.RedisSessionManager;
+import com.redisession.catalina.session.Serializer;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
@@ -50,7 +50,7 @@ public class RedisSessionManager extends ManagerBase implements Lifecycle {
 
   protected static String name = "RedisSessionManager";
 
-  protected String serializationStrategyClass = "com.radiadesign.catalina.session.JavaSerializer";
+  protected String serializationStrategyClass = "com.redisession.catalina.session.JavaSerializer";
 
   /**
    * The lifecycle event support for this component.

@@ -11,7 +11,7 @@ import org.apache.catalina.valves.ValveBase;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.radiadesign.catalina.session.RedisSessionManager;
+import com.redisession.catalina.session.RedisSessionManager;
 
 
 
